@@ -1,21 +1,20 @@
 form {
   color: white;
   align-self: center;
-  background-color: black;
+  background-color: rgba(119, 70, 53, 0.577);
   padding: 2rem 3rem;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px grey;
 }
 
 h2 {
-  color: coral;
+  color: white;
 }
 
 input {
   margin: 0 1rem;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: black;
+  background-color: rgba(119, 70, 53, 0.577);
   color: white;
 }
 
@@ -25,4 +24,10 @@ label {
 
 button {
   margin-top: 1rem;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
 }

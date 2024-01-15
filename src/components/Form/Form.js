@@ -23,32 +23,30 @@ export default function Form(props) {
   }
 
   return (
-    <>
-      <form onSubmit={handlesubmit}>
-        <h2>Add new Activity:</h2>
-        <label htmlFor="activityName">Name</label>
-        <input
-          type="text"
-          name="activityname"
-          id="activityName"
-          value={activityName}
-          placeholder="Activity name"
-          onChange={handleActivityName}
-        ></input>
+    <form onSubmit={handlesubmit}>
+      <h2>Add new Activity:</h2>
+      <label htmlFor="activityName">Name</label>
+      <input
+        type="text"
+        name="activityname"
+        id="activityName"
+        value={activityName}
+        placeholder="Activity name"
+        onChange={handleActivityName}
+      ></input>
 
-        <label htmlFor="goodweatherCheckbox">Good-weather activity</label>
-        <input
-          type="checkbox"
-          name="weathercheckbox"
-          id="goodweatherCheckbox"
-          value={isChecked}
-          onChange={handleGoodWeatherState}
-        ></input>
+      <label htmlFor="goodweatherCheckbox">Good-weather activity</label>
+      <input
+        type="checkbox"
+        name="weathercheckbox"
+        id="goodweatherCheckbox"
+        value={isChecked}
+        onChange={handleGoodWeatherState}
+      ></input>
 
-        <button type="submit" data-js="submit-button">
-          Submit
-        </button>
-      </form>
-    </>
+      <button type="submit" data-js="submit-button">
+        Submit
+      </button>
+    </form>
   );
 }
