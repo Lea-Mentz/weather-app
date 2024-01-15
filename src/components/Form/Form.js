@@ -45,7 +45,7 @@ export default function Form(props) {
       ></input>
 
       <button type="submit" data-js="submit-button">
-        Submit
+        Add new Activity
       </button>
     </form>
   );

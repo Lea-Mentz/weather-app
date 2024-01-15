@@ -14,8 +14,11 @@ input {
   margin: 0 1rem;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: rgba(119, 70, 53, 0.577);
+  background-color: rgba(255, 255, 255, 0.22);
   color: white;
+}
+input::placeholder {
+  color: rgba(255, 225, 213, 0.76);
 }
 
 label {
@@ -30,4 +33,9 @@ button {
   background-color: white;
   border: none;
   border-radius: 5px;
+  color: coral;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 80%;
+  padding: 0.5rem 0;
 }
