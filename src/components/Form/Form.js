@@ -11,6 +11,7 @@ export default function Form(props) {
     formData.activityname.focus();
     console.log(isChecked, activityName);
     props.onAddActivity(activityName, isChecked);
+    setActivityName("");
   }
 
   function handleActivityName(event) {
