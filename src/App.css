@@ -4,13 +4,15 @@ main {
   box-shadow: 5px 5px 10px grey;
   border: 1px solid black;
   border-radius: 5px;
-  padding: 0 0.5rem;
+  padding: 1rem 0.5rem;
   justify-content: center;
   max-height: 90%;
   justify-self: center;
+  overflow: scroll;
 }
 h1 {
   color: coral;
   align-self: center;
   text-transform: uppercase;
+  padding-top: 3rem;
 }
