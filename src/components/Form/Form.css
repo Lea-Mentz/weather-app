@@ -1,0 +1,28 @@
+form {
+  color: white;
+  align-self: center;
+  background-color: black;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+h2 {
+  color: coral;
+}
+
+input {
+  margin: 0 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+label {
+  padding: 1rem 0;
+}
+
+button {
+  margin-top: 1rem;
+}
