@@ -9,3 +9,8 @@ main {
   height: 90%;
   justify-self: center;
 }
+h1 {
+  color: coral;
+  align-self: center;
+  text-transform: uppercase;
+}
